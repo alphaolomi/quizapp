@@ -43,6 +43,12 @@ cp .env.example .env
 
 php artisan migrate:fresh --seed
 
+#install the dependencies or libraries for an application
+
+composer install
+
+#generate key for the application
+
 php artisan key:generate
 
 ```
@@ -50,7 +56,7 @@ php artisan key:generate
 ```
 Login with below users and create some Sections->Questions 
 
-Username: adminadmin@admin.com / admin@admin.com
+Username: superadmin@admin.com / admin@admin.com
 Password: adminadmin
 ```
 
