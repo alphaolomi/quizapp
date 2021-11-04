@@ -43,6 +43,12 @@ cp .env.example .env
 
 php artisan migrate:fresh --seed
 
+#install the dependencies or libraries for an application
+
+composer install
+
+#generate key for the application
+
 php artisan key:generate
 
 ```
